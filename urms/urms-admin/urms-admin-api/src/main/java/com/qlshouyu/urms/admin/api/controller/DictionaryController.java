@@ -3,11 +3,12 @@ package com.qlshouyu.urms.admin.api.controller;
 import com.qlshouyu.urms.common.BaseController;
 import com.qlshouyu.urms.common.ResponseResult;
 import com.qlshouyu.urms.common.database.Page;
-import com.qlshouyu.urms.model.dto.Dictionary;
-import com.qlshouyu.urms.model.vo.SearchDictionaryVo;
+import com.qlshouyu.urms.model.po.Dictionary;
+import com.qlshouyu.urms.model.vo.DictionarySearchVo;
 import com.qlshouyu.urms.service.DictionaryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,14 +23,15 @@ import tk.mybatis.mapper.entity.Example;
  */
 @RestController
 @RequestMapping("/api/admin/v1/dictionary")
-@Api(description = "字典管理")
+@Api(description = "字典管理",tags = "字典管理")
 public class DictionaryController extends BaseController {
     @Autowired
     private DictionaryService service;
 
     @GetMapping
     @ApiOperation(value = "分页获取字典列表")
-    public ResponseResult<Page> list(Page page, SearchDictionaryVo search) {
+    @ApiParam()
+    public ResponseResult<Page> list(Page page, DictionarySearchVo search) {
         Example example=new Example(Dictionary.class);
         Example.Criteria criteria= example.createCriteria();
         if(!StringUtils.isEmpty(search.getName())){

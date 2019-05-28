@@ -1,5 +1,6 @@
 package com.qlshouyu.urms.common.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,14 +19,18 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @Configuration
 @EnableSwagger2
-@ConditionalOnProperty(value = "urms.swagger.enabled", matchIfMissing = false)
+@ConditionalOnProperty(value = "urms.swagger.basePackage", matchIfMissing = false)
 public class Swagger2 {
+
+    @Value("${urms.swagger.basePackage}")
+    private String basePackage;
+
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.qlshouyu.**.controller"))  // 注意修改此处的包名
+                .apis(RequestHandlerSelectors.basePackage(basePackage))  // 注意修改此处的包名
                 .paths(PathSelectors.any())
                 .build();
     }

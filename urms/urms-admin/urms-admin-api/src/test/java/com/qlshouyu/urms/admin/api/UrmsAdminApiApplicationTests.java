@@ -1,6 +1,6 @@
 package com.qlshouyu.urms.admin.api;
 
-import com.qlshouyu.urms.model.dto.Dictionary;
+import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.service.DictionaryService;
 import org.junit.Assert;
 import org.junit.Test;

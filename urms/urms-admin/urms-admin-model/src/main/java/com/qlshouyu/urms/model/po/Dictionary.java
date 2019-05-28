@@ -1,4 +1,4 @@
-package com.qlshouyu.urms.model.dto;
+package com.qlshouyu.urms.model.po;
 
 import com.qlshouyu.urms.common.database.Entity;
 

@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="urms-admin-api" />
+        <module name="urms-admin-model" />
+        <module name="urms-admin-repository" />
+        <module name="urms-admin-service" />
         <module name="urms-cloud" />
         <module name="urms-common" />
-        <module name="urms-admin-repository" />
-        <module name="urms-admin-model" />
-        <module name="urms-admin-service" />
-        <module name="urms-admin-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

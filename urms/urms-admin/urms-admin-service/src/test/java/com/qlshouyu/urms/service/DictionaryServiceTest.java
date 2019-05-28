@@ -1,7 +1,7 @@
 package com.qlshouyu.urms.service;
 
 import com.qlshouyu.urms.common.database.Page;
-import com.qlshouyu.urms.model.dto.Dictionary;
+import com.qlshouyu.urms.model.po.Dictionary;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.qlshouyu.urms.repository.mysql;
 import com.qlshouyu.urms.common.database.Mapper;
-import com.qlshouyu.urms.model.dto.Dictionary;
+import com.qlshouyu.urms.model.po.Dictionary;
 
 /**
  * @author 高露 微信：18956074544
