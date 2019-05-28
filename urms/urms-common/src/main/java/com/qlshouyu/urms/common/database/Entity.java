@@ -1,6 +1,9 @@
 package com.qlshouyu.urms.common.database;
 
+import org.springframework.util.StringUtils;
+
 import javax.persistence.Id;
+import java.util.UUID;
 
 /**
  * @author 高露 微信：18956074544
@@ -18,7 +21,13 @@ public abstract class Entity {
     private Long updateTime;
 
     public void perInster(){
-
+        if(StringUtils.isEmpty(id)){
+            id= UUID.randomUUID().toString();
+        }
+        if(createTime==null){
+            createTime=System.currentTimeMillis();
+            updateTime=System.currentTimeMillis();
+        }
     }
 
 

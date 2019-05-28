@@ -15,6 +15,7 @@
             <groupId>com.qlshouyu.urms</groupId>
             <artifactId>urms-admin-repository</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>
