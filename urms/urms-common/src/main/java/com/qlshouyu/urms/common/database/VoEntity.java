@@ -13,7 +13,7 @@ public abstract class VoEntity {
     protected static Logger LOGGER= LoggerFactory.getLogger(VoEntity.class);
 
 
-    public <T extends Entity> T poToVo(Class<T> tClass){
+    public <T extends Entity> T voToPo(Class<T> tClass){
         try {
             T r = tClass.newInstance();
             BeanUtils.copyProperties(this, r);

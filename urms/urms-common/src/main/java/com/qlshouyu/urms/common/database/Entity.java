@@ -1,5 +1,8 @@
 package com.qlshouyu.urms.common.database;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeanUtils;
 import org.springframework.util.StringUtils;
 
 import javax.persistence.Id;
@@ -11,7 +14,7 @@ import java.util.UUID;
  * @date 2019-05-26 11:44
  */
 public abstract class Entity {
-
+    protected static Logger LOGGER= LoggerFactory.getLogger(VoEntity.class);
     @Id
     private String id;
 
@@ -28,6 +31,17 @@ public abstract class Entity {
             createTime=System.currentTimeMillis();
             updateTime=System.currentTimeMillis();
         }
+    }
+
+    public <T extends VoEntity> T poToVo(Class<T> tClass){
+        try {
+            T vo = tClass.newInstance();
+            BeanUtils.copyProperties(this, vo);
+            return vo;
+        }catch (Exception ex){
+            LOGGER.error("数据库对象转界面对象出错",ex);
+        }
+        return null;
     }
 
 

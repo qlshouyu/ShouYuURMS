@@ -3,6 +3,7 @@ package com.qlshouyu.urms.model.vo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.qlshouyu.urms.common.database.Page;
+import com.qlshouyu.urms.common.database.VoEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -14,7 +15,7 @@ import io.swagger.annotations.ApiModelProperty;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
 @ApiModel(value ="DictionarySearch")
-public class DictionarySearchVo {
+public class DictionarySearchVo extends VoEntity {
 
     @ApiModelProperty(value = "字典名称")
     private String name;
@@ -38,5 +39,13 @@ public class DictionarySearchVo {
 
     public void setValue(String value) {
         this.value = value;
+    }
+
+    public Page getPage() {
+        return page;
+    }
+
+    public void setPage(Page page) {
+        this.page = page;
     }
 }
