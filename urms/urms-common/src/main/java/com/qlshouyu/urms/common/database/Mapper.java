@@ -5,5 +5,5 @@ package com.qlshouyu.urms.common.database;
  * @Description TODO
  * @date 19-5-28上午10:51
  */
-public interface Mapper<T extends Entity> extends tk.mybatis.mapper.common.Mapper<T> {
+public interface Mapper<T extends PoEntity> extends tk.mybatis.mapper.common.Mapper<T> {
 }

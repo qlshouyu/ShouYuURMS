@@ -1,6 +1,7 @@
 package com.qlshouyu.urms.model.po;
 
 import com.qlshouyu.urms.common.database.Entity;
+import com.qlshouyu.urms.common.database.PoEntity;
 
 import javax.persistence.Table;
 
@@ -10,7 +11,7 @@ import javax.persistence.Table;
  * @date 2019-05-26 11:38
  */
 @Table(name = "urms_dictionary")
-public class Dictionary extends Entity {
+public class Dictionary extends PoEntity {
 
     /**
      * 名称

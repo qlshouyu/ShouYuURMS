@@ -14,32 +14,19 @@ import java.util.UUID;
  * @date 2019-05-26 11:44
  */
 public abstract class Entity {
+
     protected static Logger LOGGER= LoggerFactory.getLogger(VoEntity.class);
     @Id
     private String id;
 
 
-    private Long createTime;
-
-    private Long updateTime;
-
-    public void perInster(){
-        if(StringUtils.isEmpty(id)){
-            id= UUID.randomUUID().toString();
-        }
-        if(createTime==null){
-            createTime=System.currentTimeMillis();
-            updateTime=System.currentTimeMillis();
-        }
-    }
-
-    public <T extends VoEntity> T poToVo(Class<T> tClass){
+    public <T extends Entity> T transTo(Class<T> tClass){
         try {
             T vo = tClass.newInstance();
             BeanUtils.copyProperties(this, vo);
             return vo;
         }catch (Exception ex){
-            LOGGER.error("数据库对象转界面对象出错",ex);
+            LOGGER.error("对象转换出错",ex);
         }
         return null;
     }
@@ -53,19 +40,5 @@ public abstract class Entity {
         this.id = id;
     }
 
-    public Long getCreateTime() {
-        return createTime;
-    }
 
-    public void setCreateTime(Long createTime) {
-        this.createTime = createTime;
-    }
-
-    public Long getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Long updateTime) {
-        this.updateTime = updateTime;
-    }
 }

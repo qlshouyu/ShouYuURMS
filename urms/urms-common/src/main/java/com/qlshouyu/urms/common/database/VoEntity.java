@@ -9,18 +9,6 @@ import org.springframework.beans.BeanUtils;
  * @Description 界面对象必须继承
  * @date 19-5-28下午5:26
  */
-public abstract class VoEntity {
-    protected static Logger LOGGER= LoggerFactory.getLogger(VoEntity.class);
+public abstract class VoEntity extends Entity{
 
-
-    public <T extends Entity> T voToPo(Class<T> tClass){
-        try {
-            T r = tClass.newInstance();
-            BeanUtils.copyProperties(this, r);
-            return r;
-        }catch (Exception ex){
-            LOGGER.error("界面对象转数据库对象出错",ex);
-        }
-        return null;
-    }
 }

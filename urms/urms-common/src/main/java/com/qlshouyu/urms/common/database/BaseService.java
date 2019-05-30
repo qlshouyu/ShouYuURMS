@@ -11,7 +11,7 @@ import java.util.List;
  * @Description TODO
  * @date 19-5-28上午10:55
  */
-public abstract class BaseService<T extends Entity> {
+public abstract class BaseService<T extends PoEntity> {
     @Autowired
     private Mapper<T> mapper;
 
