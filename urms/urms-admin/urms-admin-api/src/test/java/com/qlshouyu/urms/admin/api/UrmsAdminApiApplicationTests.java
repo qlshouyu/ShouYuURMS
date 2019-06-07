@@ -1,6 +1,8 @@
 package com.qlshouyu.urms.admin.api;
 
+import com.qlshouyu.urms.common.ResponseResult;
 import com.qlshouyu.urms.model.po.Dictionary;
+import com.qlshouyu.urms.model.vo.DictionaryVo;
 import com.qlshouyu.urms.service.DictionaryService;
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,11 +23,11 @@ public class UrmsAdminApiApplicationTests {
     }
     @Test
     public void save(){
-        Dictionary dictionary=new Dictionary();
+        DictionaryVo dictionary=new DictionaryVo();
         dictionary.setName("测试");
         dictionary.setValue("test");
-        boolean isOk= service.save(dictionary);
-        Assert.assertEquals(isOk,true);
+        ResponseResult<Dictionary> dist = service.edit(dictionary);
+        Assert.assertNotNull(dist);
     }
 
 }

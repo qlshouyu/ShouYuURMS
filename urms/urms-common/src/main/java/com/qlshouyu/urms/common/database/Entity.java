@@ -3,17 +3,16 @@ package com.qlshouyu.urms.common.database;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
-import org.springframework.util.StringUtils;
 
 import javax.persistence.Id;
-import java.util.UUID;
+import java.io.Serializable;
 
 /**
  * @author 高露 微信：18956074544
  * @Description TODO
  * @date 2019-05-26 11:44
  */
-public abstract class Entity {
+public abstract class Entity implements Serializable {
 
     protected static Logger LOGGER= LoggerFactory.getLogger(VoEntity.class);
     @Id

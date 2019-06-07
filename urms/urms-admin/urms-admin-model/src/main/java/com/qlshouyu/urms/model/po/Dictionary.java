@@ -22,6 +22,11 @@ public class Dictionary extends PoEntity {
      */
     private String value;
 
+    /**
+     * 父id
+     */
+    private String parentId;
+
     public String getName() {
         return name;
     }
@@ -36,5 +41,13 @@ public class Dictionary extends PoEntity {
 
     public void setValue(String value) {
         this.value = value;
+    }
+
+    public String getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(String parentId) {
+        this.parentId = parentId;
     }
 }

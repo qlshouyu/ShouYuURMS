@@ -14,12 +14,15 @@ public class ResponseResult<T> {
 
     private RESPONSE_STATUS status;
 
+    private int code;
+
     private String errorMsg;
 
     public ResponseResult(T data,RESPONSE_STATUS status,String error) {
         this.data=data;
         this.status=status;
         this.errorMsg=error;
+        this.code=status.getValue();
     }
 
     public ResponseResult(T data) {
@@ -53,6 +56,14 @@ public class ResponseResult<T> {
 
     public void setErrorMsg(String errorMsg) {
         this.errorMsg = errorMsg;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
     }
 }
 

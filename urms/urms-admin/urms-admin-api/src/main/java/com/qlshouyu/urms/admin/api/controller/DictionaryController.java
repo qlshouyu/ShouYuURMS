@@ -2,45 +2,59 @@ package com.qlshouyu.urms.admin.api.controller;
 
 import com.qlshouyu.urms.common.BaseController;
 import com.qlshouyu.urms.common.ResponseResult;
-import com.qlshouyu.urms.common.database.Page;
 import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.model.vo.DictionarySearchVo;
+import com.qlshouyu.urms.model.vo.DictionaryVo;
 import com.qlshouyu.urms.service.DictionaryService;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import tk.mybatis.mapper.entity.Example;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
- * @author 高露 微信：18956074544
- * @Description TODO
- * @date 19-5-28下午1:55
+ * 字典管理
+ * @author 高露 邮箱：<a href="egojit@qq.com">egojit@qq.com</a>
+ * @since 19-5-28上午10:55
  */
 @RestController
 @RequestMapping("/api/admin/v1/dictionary")
-@Api(description = "字典管理",tags = "字典管理")
+@Api(value = "字典管理",tags = "字典管理")
 public class DictionaryController extends BaseController {
+
     @Autowired
     private DictionaryService service;
 
+    /**
+     * 根据条件查询所有字典
+     * @param search 查询条件 {@code DictionarySearchVo}
+     * @return 返回字典列表 {@code List<Dictionary>}
+     */
     @GetMapping
-    @ApiOperation(value = "分页获取字典列表")
-    @ApiParam()
-    public ResponseResult<Page> list(Page page, DictionarySearchVo search) {
-        Example example=new Example(Dictionary.class);
-        Example.Criteria criteria= example.createCriteria();
-        if(!StringUtils.isEmpty(search.getName())){
-            criteria.andLike("name",search.getName());
-        }
-        if(!StringUtils.isEmpty(search.getValue())){
-            criteria.andEqualTo("value",search.getValue());
-        }
-        page= service.pageByExemple(page,example);
-        return new ResponseResult(page);
+    @ApiOperation(value = "字典-列表")
+    public ResponseResult<List<Dictionary>> list(@ApiParam(value = "查询参数") DictionarySearchVo search) {
+        return service.list(search);
+    }
+
+
+    @PostMapping
+    @ApiOperation(value = "字典-编辑[添加/修改]")
+    public ResponseResult<Dictionary> edit(@ApiParam(value = "字典对象",required = true) DictionaryVo model) {
+        return service.edit(model);
+    }
+
+    /**
+     * 根据多个id删除字典
+     *
+     * @param ids 多个id逗号隔开{@code String}
+     * @return 实体对象
+     */
+    @DeleteMapping("/{ids}")
+    @ApiOperation(value = "字典-删除")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name="ids", value="逗号隔开的多个字典id", required=true, paramType="path", dataType="String")
+    })
+    public ResponseResult<Dictionary> delete(@PathVariable(value = "ids",required = true) String ids) {
+        return service.delete(ids);
     }
 }

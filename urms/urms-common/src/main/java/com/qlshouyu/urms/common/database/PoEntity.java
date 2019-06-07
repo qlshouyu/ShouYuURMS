@@ -6,7 +6,7 @@ import java.util.UUID;
 
 /**
  * @author 高露 微信：18956074544
- * @Description TODO
+ * @Description 数据库对象
  * @date 19-5-29上午8:40
  */
 public abstract class PoEntity extends Entity{
@@ -22,6 +22,9 @@ public abstract class PoEntity extends Entity{
             createTime=System.currentTimeMillis();
             updateTime=System.currentTimeMillis();
         }
+    }
+    public void perUpdate(){
+        updateTime=System.currentTimeMillis();
     }
 
     public Long getCreateTime() {

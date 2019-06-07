@@ -16,6 +16,7 @@
         <module>urms-admin-repository</module>
         <module>urms-admin-service</module>
         <module>urms-admin-api</module>
+        <module>urms-admin-manager</module>
     </modules>
     <dependencies>
         <dependency>

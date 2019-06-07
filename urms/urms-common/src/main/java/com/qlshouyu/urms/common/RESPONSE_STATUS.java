@@ -10,7 +10,8 @@ public enum RESPONSE_STATUS {
 
     SUCCESS(200,"成功"),
     ERROR(500,"服务器错误"),
-    NOT_FOUND(404,"资源不存在");
+    NOT_FOUND(404,"资源不存在"),
+    ERROR_PARM(501,"参数错误");
 
     private int value;
     private String name;

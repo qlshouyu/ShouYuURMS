@@ -14,16 +14,23 @@ import io.swagger.annotations.ApiModelProperty;
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties({ "handler","hibernateLazyInitializer" })
-@ApiModel(value ="DictionarySearch")
+@ApiModel(value = "com.qlshouyu.urms.model.vo.DictionarySearchVo", description = "字典列表查询参数")
 public class DictionarySearchVo extends VoEntity {
 
     @ApiModelProperty(value = "字典名称")
     private String name;
     @ApiModelProperty(value = "字典值")
     private String value;
+    @ApiModelProperty(value = "父字典ID")
+    private String parentId;
 
-    @ApiModelProperty(value = "分页信息")
-    private Page page;
+    public String getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(String parentId) {
+        this.parentId = parentId;
+    }
 
     public String getName() {
         return name;
@@ -39,13 +46,5 @@ public class DictionarySearchVo extends VoEntity {
 
     public void setValue(String value) {
         this.value = value;
-    }
-
-    public Page getPage() {
-        return page;
-    }
-
-    public void setPage(Page page) {
-        this.page = page;
     }
 }

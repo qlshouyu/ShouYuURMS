@@ -1,5 +1,6 @@
 package com.qlshouyu.urms.service;
 
+import com.qlshouyu.urms.common.ResponseResult;
 import com.qlshouyu.urms.common.database.Page;
 import com.qlshouyu.urms.model.po.Dictionary;
 import org.junit.Assert;
@@ -24,16 +25,8 @@ public class DictionaryServiceTest {
         Dictionary dictionary=new Dictionary();
         dictionary.setName("测试1");
         dictionary.setValue("test1");
-        boolean isOk= service.save(dictionary);
-        Assert.assertEquals(isOk,true);
+        ResponseResult<Dictionary> dic = service.editSelective(dictionary);
+        Assert.assertNotNull("",dic);
     }
 
-    @org.junit.Test
-    public void list() {
-        Page<Dictionary> page=new Page<>();
-        Example example=new Example(Dictionary.class);
-        example.createCriteria().andIsNotNull("value");
-        page= service.pageByExemple(page,example);
-        Assert.assertTrue(page.getCount()>0);
-    }
 }
