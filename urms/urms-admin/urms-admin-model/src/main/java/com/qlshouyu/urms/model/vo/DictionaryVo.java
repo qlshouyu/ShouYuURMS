@@ -1,6 +1,7 @@
 package com.qlshouyu.urms.model.vo;
 
-import com.qlshouyu.urms.common.database.VoEntity;
+
+import com.qlshouyu.urms.common.base.entity.VoEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -11,7 +12,7 @@ import javax.validation.constraints.NotNull;
  * @Description TODO
  * @date 2019-06-07 12:32
  */
-@ApiModel(value = "com.qlshouyu.urms.common.database.VoEntity.DictionaryVo", description = "字典详情")
+@ApiModel(value = "com.qlshouyu.urms.common.base.entity.VoEntity.DictionaryVo", description = "字典详情")
 public class DictionaryVo extends VoEntity {
     /**
      * 名称

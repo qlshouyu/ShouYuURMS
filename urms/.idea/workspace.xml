@@ -2,9 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c5984d0-743e-44d8-85aa-38371dcd892b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UserRightsManagementSystem.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../UserRightsManagementSystem.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UserRightsManagementSystem.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../UserRightsManagementSystem.mwb.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/LoginUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/sso/controller/SsoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-common/urms-common-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-common/urms-common-base/urms-common-base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-common/urms-common-db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-common/urms-common-db/urms-common-db.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-common/urms-common-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urms-common/urms-common-web/urms-common-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urms-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionarySearchVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionarySearchVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/DictionaryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/DictionaryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/RESPONSE_STATUS.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/exception/RESPONSE_STATUS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/PoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/entity/PoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/VoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/entity/VoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/urms-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,6 +57,10 @@
     <ignored path="$PROJECT_DIR$/urms-cloud/urms-cloud-gateway/target/" />
     <ignored path="$PROJECT_DIR$/urms-admin/urms-admin-manager/target/" />
     <ignored path="$PROJECT_DIR$/urms-admin/urms-admin-manager/urms-admin-manager-web/target/" />
+    <ignored path="$PROJECT_DIR$/urms-admin/urms-admin-sso/target/" />
+    <ignored path="$PROJECT_DIR$/urms-common/urms-common-web/target/" />
+    <ignored path="$PROJECT_DIR$/urms-common/urms-common-base/target/" />
+    <ignored path="$PROJECT_DIR$/urms-common/urms-common-db/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,95 +102,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="123" column="19" selection-start-line="117" selection-start-column="4" selection-end-line="123" selection-end-column="19" />
+            <state relative-caret-position="423">
+              <caret line="29" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/po/Dictionary.java">
+        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/sso/controller/SsoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding>
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/javax/persistence/Table.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-repository/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-starter/2.1.5/mapper-spring-boot-starter-2.1.5.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1272">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/ResponseResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-              <folding>
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/RESPONSE_STATUS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/DictionaryServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-api/src/test/java/com/qlshouyu/urms/admin/api/UrmsAdminApiApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,13 +136,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/BaseService.java">
+        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/LoginUserVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="51" column="7" selection-start-line="46" selection-start-column="4" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="135">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urms-admin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3453#3454#0" expanded="true" />
+                <element signature="e#3499#3500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urms-common/urms-common-db/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -202,20 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/src/test/java/com/qlshouyu/urms/urmsadminapi/UrmsAdminApiApplicationTests.java" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/application-test.properties" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/resources/application-test.properties" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/TestRunner.java" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/src/main/java/com/qlshouyu/urms/urmsadminapi/UrmsAdminApiApplication.java" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/resources/application.properties" />
-        <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/BaseController.java" />
-        <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/TESPONSE_STATUS.java" />
-        <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Page.java" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/SearchDictionaryVo.java" />
-        <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Mapper.java" />
-        <option value="$PROJECT_DIR$/urms-cloud/urms-cloud-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/urms-cloud/urms-cloud-eureka/src/main/java/com/qlshouyu/urms/cloud/eureka/UrmsCloudEurekaApplication.java" />
         <option value="$PROJECT_DIR$/urms-cloud/urms-cloud-eureka/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/urms-cloud/urms-cloud-eureka/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/urms-cloud/pom.xml" />
@@ -238,21 +258,35 @@
         <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/RESPONSE_STATUS.java" />
         <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/pom.xml" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-repository/pom.xml" />
         <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/PoEntity.java" />
-        <option value="$PROJECT_DIR$/urms-admin/pom.xml" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionarySearchVo.java" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java" />
         <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/BaseService.java" />
-        <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/src/main/java/com/qlshouyu/urms/admin/api/controller/DictionaryController.java" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/DictionaryServiceTest.java" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/src/test/java/com/qlshouyu/urms/admin/api/UrmsAdminApiApplicationTests.java" />
         <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/ResponseResult.java" />
-        <option value="$PROJECT_DIR$/urms-common/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/UrmsSsoApplication.java" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/sso/UrmsSsoApplication.java" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/ResponseResult.java" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/Entity.java" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/Page.java" />
+        <option value="$PROJECT_DIR$/urms-common/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/LoginUserVo.java" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/sso/controller/SsoController.java" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-db/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/BaseService.java" />
+        <option value="$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/Mapper.java" />
       </list>
     </option>
   </component>
@@ -313,7 +347,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,7 +362,95 @@
             <path>
               <item name="urms" type="b2602c69:ProjectViewProjectNode" />
               <item name="urms" type="462c0819:PsiDirectoryNode" />
-              <item name="urms-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common-db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="urms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="urms" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common" type="462c0819:PsiDirectoryNode" />
+              <item name="urms-common-db" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="urms" type="b2602c69:ProjectViewProjectNode" />
@@ -339,6 +460,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -367,17 +489,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.qlshouyu.urms.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test" />
-      <recent name="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/urms-admin/urms-admin-repository/src/main/resources" />
       <recent name="$PROJECT_DIR$/urms-admin/urms-admin-repository/src/main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/urms-admin/urms-admin-service/src/test" />
+      <recent name="$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -487,6 +609,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UrmsAdminSsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="urms-admin-sso" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qlshouyu.urms.sso.UrmsSsoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UrmsCloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="urms-cloud-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qlshouyu.urms.cloud.eureka.UrmsCloudEurekaApplication" />
@@ -512,6 +641,7 @@
       <item itemvalue="Spring Boot.UrmsCloudEurekaApplication" />
       <item itemvalue="Spring Boot.UrmsCloudGatewayApplication" />
       <item itemvalue="Spring Boot.UrmsAdminManagerWebApplication" />
+      <item itemvalue="Spring Boot.UrmsAdminSsoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -546,6 +676,7 @@
       <workItem from="1560080227971" duration="1153000" />
       <workItem from="1560090303166" duration="609000" />
       <workItem from="1560091744890" duration="83000" />
+      <workItem from="1569507277327" duration="2699000" />
     </task>
     <servers />
   </component>
@@ -582,12 +713,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73146000" />
+    <option name="totallyTimeSpent" value="75845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21062271" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -596,14 +728,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905483" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.56235296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6662777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32867885" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33488914" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33488914" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32905483" />
@@ -614,7 +746,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958587" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.26007327" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20879121" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.14688018" />
@@ -673,7 +805,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/DictionaryServiceTest.java</url>
-          <line>26</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -691,55 +823,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-gateway-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-gateway/2.1.1.RELEASE/spring-cloud-starter-gateway-2.1.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/predicate/HeaderRoutePredicateFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-gateway/2.1.1.RELEASE/spring-cloud-starter-gateway-2.1.1.RELEASE.jar!/META-INF/spring.provides">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/gateway/support/AbstractConfigurable.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.1.1.RELEASE/spring-cloud-gateway-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/gateway/handler/FilteringWebHandler.java" />
-    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-repository-mysql/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/IRepository.java" />
-    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-cloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-cloud/urms-cloud-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/mysql/DictionaryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -764,116 +851,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/PoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.1.16/druid-spring-boot-starter-1.1.16-sources.jar!/com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.java" />
-    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/VoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaHealthCheckHandler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaConstants.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/CloudEurekaTransportConfig.java" />
-    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionarySearchVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -901,14 +884,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/config/WebMvcConfig.java">
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="36" column="79" lean-forward="true" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
@@ -933,13 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="123" column="19" selection-start-line="117" selection-start-column="4" selection-end-line="123" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -977,26 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/ResponseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding>
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/RESPONSE_STATUS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-service/src/test/java/com/qlshouyu/urms/service/DictionaryServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1014,12 +963,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/database/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-api/src/main/java/com/qlshouyu/urms/admin/api/UrmsAdminApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="51" column="7" selection-start-line="46" selection-start-column="4" selection-end-line="51" selection-end-column="7" />
+        <state>
+          <caret column="25" selection-start-column="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/sso/UrmsSsoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/exception/RESPONSE_STATUS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-536">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/src/main/java/com/qlshouyu/urms/common/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/entity/PoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-base/src/main/java/com/qlshouyu/urms/common/base/entity/VoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-sso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/src/main/java/com/qlshouyu/urms/common/web/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="29" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/LoginUserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-sso/src/main/java/com/qlshouyu/urms/sso/controller/SsoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-admin/urms-admin-service/src/main/java/com/qlshouyu/urms/service/DictionaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urms-common/urms-common-db/src/main/java/com/qlshouyu/urms/common/db/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3453#3454#0" expanded="true" />
+            <element signature="e#3499#3500#0" expanded="true" />
           </folding>
         </state>
       </provider>

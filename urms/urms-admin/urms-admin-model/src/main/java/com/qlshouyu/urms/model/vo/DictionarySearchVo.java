@@ -2,7 +2,6 @@ package com.qlshouyu.urms.model.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.qlshouyu.urms.common.database.Page;
 import com.qlshouyu.urms.common.database.VoEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

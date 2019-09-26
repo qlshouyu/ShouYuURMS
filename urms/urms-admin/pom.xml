@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.qlshouyu.urms</groupId>
-            <artifactId>urms-common</artifactId>
+            <artifactId>urms-common-base</artifactId>
         </dependency>
     </dependencies>
 

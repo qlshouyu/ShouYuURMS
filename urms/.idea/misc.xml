@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/urms-admin-api-restful/pom.xml" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-api/pom.xml" />
         <option value="$PROJECT_DIR$/urms-admin/urms-admin-manager/urms-admin-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/urms-admin/urms-admin-sso/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

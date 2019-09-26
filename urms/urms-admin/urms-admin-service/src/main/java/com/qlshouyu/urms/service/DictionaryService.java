@@ -1,10 +1,7 @@
 package com.qlshouyu.urms.service;
-import com.qlshouyu.urms.common.ResponseResult;
-import com.qlshouyu.urms.common.database.BaseService;
 import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.model.vo.DictionarySearchVo;
 import com.qlshouyu.urms.model.vo.DictionaryVo;
-import io.swagger.annotations.ApiParam;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;

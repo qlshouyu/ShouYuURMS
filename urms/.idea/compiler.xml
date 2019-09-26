@@ -7,13 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="urms-cloud-gateway" />
+        <module name="urms-common-base" />
         <module name="urms-admin-repository" />
         <module name="urms-admin-manager" />
-        <module name="urms-common" />
         <module name="urms-admin-model" />
         <module name="urms-cloud-eureka" />
+        <module name="urms-admin-sso" />
         <module name="urms-admin-manager-web" />
+        <module name="urms-common-db" />
         <module name="urms-admin-service" />
+        <module name="urms-common-web" />
         <module name="urms-admin-api" />
       </profile>
     </annotationProcessing>
@@ -34,11 +37,15 @@
       <module name="urms-admin-model" options="-parameters" />
       <module name="urms-admin-repository" options="-parameters" />
       <module name="urms-admin-service" options="-parameters" />
+      <module name="urms-admin-sso" options="-parameters" />
       <module name="urms-api" options="-parameters" />
       <module name="urms-cloud" options="-parameters" />
       <module name="urms-cloud-eureka" options="-parameters" />
       <module name="urms-cloud-gateway" options="-parameters" />
       <module name="urms-common" options="-parameters" />
+      <module name="urms-common-base" options="-parameters" />
+      <module name="urms-common-db" options="-parameters" />
+      <module name="urms-common-web" options="-parameters" />
     </option>
   </component>
 </project>
