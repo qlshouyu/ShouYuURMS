@@ -1,2 +1,3 @@
-com/qlshouyu/urms/repository/test.class
+com/qlshouyu/urms/repository/DictionaryRepository.class
 com/qlshouyu/urms/repository/mysql/DictionaryMapper.class
+com/qlshouyu/urms/repository/test.class

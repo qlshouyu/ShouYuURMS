@@ -1,7 +1,7 @@
 package com.qlshouyu.urms.admin.api.controller;
 
-import com.qlshouyu.urms.common.BaseController;
-import com.qlshouyu.urms.common.ResponseResult;
+import com.qlshouyu.urms.common.web.BaseController;
+import com.qlshouyu.urms.common.web.ResponseResult;
 import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.model.vo.DictionarySearchVo;
 import com.qlshouyu.urms.model.vo.DictionaryVo;
@@ -54,7 +54,8 @@ public class DictionaryController extends BaseController {
     @ApiImplicitParams({
             @ApiImplicitParam(name="ids", value="逗号隔开的多个字典id", required=true, paramType="path", dataType="String")
     })
-    public ResponseResult<Dictionary> delete(@PathVariable(value = "ids",required = true) String ids) {
-        return service.delete(ids);
+    public ResponseResult<String> delete(@PathVariable(value = "ids",required = true) String ids) {
+        service.delete(ids);
+        return new ResponseResult("成功");
     }
 }

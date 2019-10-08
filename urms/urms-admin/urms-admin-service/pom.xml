@@ -15,6 +15,10 @@
             <groupId>com.qlshouyu.urms</groupId>
             <artifactId>urms-admin-repository</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.qlshouyu.urms</groupId>
+            <artifactId>urms-framework-web</artifactId>
+        </dependency>
 
     </dependencies>
 

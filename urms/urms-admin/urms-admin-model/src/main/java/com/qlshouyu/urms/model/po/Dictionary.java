@@ -1,7 +1,6 @@
 package com.qlshouyu.urms.model.po;
 
-import com.qlshouyu.urms.common.database.Entity;
-import com.qlshouyu.urms.common.database.PoEntity;
+import com.qlshouyu.urms.common.base.entity.PoEntity;
 
 import javax.persistence.Table;
 
@@ -12,20 +11,29 @@ import javax.persistence.Table;
  */
 @Table(name = "urms_dictionary")
 public class Dictionary extends PoEntity {
-
-    /**
-     * 名称
-     */
-    private String name;
-    /**
-     * 字典值
-     */
+    private String id;
     private String value;
-
-    /**
-     * 父id
-     */
+    private String name;
     private String parentId;
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
 
     public String getName() {
         return name;
@@ -35,13 +43,6 @@ public class Dictionary extends PoEntity {
         this.name = name;
     }
 
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
-    }
 
     public String getParentId() {
         return parentId;

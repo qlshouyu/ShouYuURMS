@@ -1,2 +1,4 @@
-com/qlshouyu/urms/model/vo/DictionarySearchVo.class
+com/qlshouyu/urms/model/vo/DictionaryVo.class
+com/qlshouyu/urms/model/vo/LoginUserVo.class
 com/qlshouyu/urms/model/po/Dictionary.class
+com/qlshouyu/urms/model/vo/DictionarySearchVo.class

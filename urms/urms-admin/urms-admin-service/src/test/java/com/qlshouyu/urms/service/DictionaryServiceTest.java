@@ -1,6 +1,6 @@
 package com.qlshouyu.urms.service;
 
-import com.qlshouyu.urms.common.ResponseResult;
+import com.qlshouyu.urms.common.web.ResponseResult;
 import com.qlshouyu.urms.model.po.Dictionary;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
@@ -23,8 +23,8 @@ public class DictionaryServiceTest {
         Dictionary dictionary=new Dictionary();
         dictionary.setName("测试1");
         dictionary.setValue("test1");
-        ResponseResult<Dictionary> dic = service.editSelective(dictionary);
-        Assert.assertNotNull("",dic);
+       boolean isOk=service.editSelective(dictionary);
+        Assert.assertFalse(isOk);
     }
 
 }

@@ -13,9 +13,9 @@
     <file url="file://$PROJECT_DIR$/urms-cloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/urms-cloud/urms-cloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/urms-cloud/urms-cloud-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/urms-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/urms-common/urms-common-base" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/urms-common/urms-common-db" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/urms-common/urms-common-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/urms-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/urms-framework/urms-framework-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/urms-framework/urms-framework-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/urms-framework/urms-framework-web" charset="UTF-8" />
   </component>
 </project>

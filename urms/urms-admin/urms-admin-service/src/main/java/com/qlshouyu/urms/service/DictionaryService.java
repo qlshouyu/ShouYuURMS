@@ -1,7 +1,11 @@
 package com.qlshouyu.urms.service;
+import com.qlshouyu.urms.common.db.BaseService;
+import com.qlshouyu.urms.common.db.Mapper;
+import com.qlshouyu.urms.common.web.ResponseResult;
 import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.model.vo.DictionarySearchVo;
 import com.qlshouyu.urms.model.vo.DictionaryVo;
+import com.qlshouyu.urms.repository.mapper.DictionaryMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
@@ -15,6 +19,15 @@ import java.util.List;
  */
 @Service
 public class DictionaryService extends BaseService<Dictionary> {
+
+    /**
+     * 构造函数
+     *
+     * @param mapper
+     */
+    public DictionaryService(DictionaryMapper mapper) {
+        super(mapper);
+    }
 
     /**
      * 根据条件查询所有字典
@@ -33,7 +46,8 @@ public class DictionaryService extends BaseService<Dictionary> {
         if(!StringUtils.isEmpty(search.getParentId())){
             criteria.andEqualTo("parentId",search.getParentId());
         }
-        return this.listByExemple(example);
+        List<Dictionary> list=this.listByExemple(example);
+        return new ResponseResult<>(list);
     }
 
     /**
@@ -43,7 +57,8 @@ public class DictionaryService extends BaseService<Dictionary> {
      */
     public ResponseResult<Dictionary> edit(DictionaryVo model) {
         Dictionary dic= model.transTo(Dictionary.class);
-        return this.editSelective(dic);
+        this.editSelective(dic);
+        return new ResponseResult<>(dic);
     }
 
 }

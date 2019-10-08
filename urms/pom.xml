@@ -17,7 +17,7 @@
     <modules>
         <module>urms-admin</module>
         <module>urms-cloud</module>
-        <module>urms-common</module>
+        <module>urms-framework</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -47,17 +47,17 @@
             </dependency>
             <dependency>
                 <groupId>com.qlshouyu.urms</groupId>
-                <artifactId>urms-common-base</artifactId>
+                <artifactId>urms-framework-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.qlshouyu.urms</groupId>
-                <artifactId>urms-common-db</artifactId>
+                <artifactId>urms-framework-db</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.qlshouyu.urms</groupId>
-                <artifactId>urms-common-web</artifactId>
+                <artifactId>urms-framework-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
