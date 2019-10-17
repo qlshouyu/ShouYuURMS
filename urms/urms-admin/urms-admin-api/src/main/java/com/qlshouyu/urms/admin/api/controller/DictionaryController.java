@@ -33,14 +33,16 @@ public class DictionaryController extends BaseController {
     @GetMapping
     @ApiOperation(value = "字典-列表")
     public ResponseResult<List<Dictionary>> list(@ApiParam(value = "查询参数") DictionarySearchVo search) {
-        return service.list(search);
+        List<Dictionary> dictionaries= service.list(search);
+        return new ResponseResult<>(dictionaries);
     }
 
 
     @PostMapping
     @ApiOperation(value = "字典-编辑[添加/修改]")
     public ResponseResult<Dictionary> edit(@ApiParam(value = "字典对象",required = true) DictionaryVo model) {
-        return service.edit(model);
+        Dictionary dictionary= service.edit(model);
+        return new ResponseResult<>(dictionary);
     }
 
     /**
@@ -54,7 +56,7 @@ public class DictionaryController extends BaseController {
     @ApiImplicitParams({
             @ApiImplicitParam(name="ids", value="逗号隔开的多个字典id", required=true, paramType="path", dataType="String")
     })
-    public ResponseResult<String> delete(@PathVariable(value = "ids",required = true) String ids) {
+    public ResponseResult<String> delete(@PathVariable(value = "ids") String ids) {
         service.delete(ids);
         return new ResponseResult("成功");
     }

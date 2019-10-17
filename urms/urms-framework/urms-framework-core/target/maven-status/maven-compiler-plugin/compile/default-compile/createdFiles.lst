@@ -1,3 +1,4 @@
 com/qlshouyu/urms/common/base/entity/VoEntity.class
-com/qlshouyu/urms/common/base/entity/Entity.class
 com/qlshouyu/urms/common/base/entity/PoEntity.class
+com/qlshouyu/urms/common/base/entity/Entity.class
+com/qlshouyu/urms/common/base/entity/Jsonable.class

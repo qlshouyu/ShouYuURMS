@@ -1,4 +1,4 @@
-package com.qlshouyu.urms.urmsadminmanagerweb;
+package com.qlshouyu.urms.admin.manager;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

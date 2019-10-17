@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <el-row :gutter="20">
-      <el-col :span="6">
-        <el-card body-style="{padding:20px}" shadow="never" >
+    <el-container>
+      <el-aside  width="250px">
+        <el-card style="border:0px" body-style="{padding:20px}" shadow="never" >
           <div slot="header" class="clearfix">
             <el-input
               placeholder="输入关键字进行搜索"
@@ -21,16 +21,19 @@
             </span>
           </el-tree>
         </el-card>
-      </el-col>
-      <el-col :span="18">
-        <el-row>
-          <el-col :spn="24">
-            <el-form ref="form" :rules="rules" :model="form" label-width="100px">
+      </el-aside>
+      <el-main>
+        <el-form ref="form" :rules="rules" :model="form" label-width="100px">
               <el-row>
-                <el-col :span="24">
+                <el-col :span="12">
                   <el-form-item label="父字典">
-                    <el-input v-model="form.parentName" ></el-input>
+                    <el-input :disabled="true" v-model="form.parentName" ></el-input>
                     <input type="hidden" v-model="form.parentId">
+                  </el-form-item>
+                </el-col>
+                <el-col :span="12">
+                  <el-form-item label="字典名称" prop="value">
+                    <el-input v-model="form.value" placeholder="请输入字典名称"></el-input>
                   </el-form-item>
                 </el-col>
               </el-row>
@@ -41,8 +44,8 @@
                   </el-form-item>
                 </el-col>
                 <el-col :span="12">
-                  <el-form-item label="字典值" prop="code">
-                    <el-input v-model="form.code" placeholder="请输入字典值"></el-input>
+                  <el-form-item label="排序" prop="code">
+                    <el-input v-model="form.sort" placeholder="请输入字典值"></el-input>
                   </el-form-item>
                 </el-col>
               </el-row>
@@ -51,7 +54,7 @@
                   <el-form-item label="字典描述">
                     <el-input
                       type="textarea"
-                      :autosize="{ minRows: 2, maxRows: 4}"
+                      :autosize="{ minRows: 5, maxRows: 8}"
                       placeholder="请输入内容"
                       v-model="form.remark">
                     </el-input>
@@ -64,10 +67,8 @@
                 <el-button  type="danger" @click="onDelete()" icon="el-icon-delete">删除</el-button>
               </el-form-item>
             </el-form>
-          </el-col>
-        </el-row>
-      </el-col>
-    </el-row>
+      </el-main>
+    </el-container>
   </div>
 </template>
 <script>
@@ -242,15 +243,14 @@ export default {
 }
 </script>
 
-<style scoped>
-  .handle-box {
-    margin-bottom: 10px;
-  }
-
-  .el-row {
-    margin-bottom: 10px;
-  }
-
+<style scope>
+.el-container {
+  height: 100%;
+}
+.el-aside {
+  height: 100%;
+  border-right: 1px solid #dddddd
+}
   .el-cl {
     width: 120px;
   }

@@ -5,14 +5,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 
 import javax.persistence.Id;
-import java.io.Serializable;
 
 /**
  * @author 高露 微信：18956074544
  * @Description TODO
  * @date 2019-05-26 11:44
  */
-public abstract class Entity implements Serializable {
+public abstract class Entity extends Jsonable {
 
     protected static Logger LOGGER= LoggerFactory.getLogger(VoEntity.class);
     @Id

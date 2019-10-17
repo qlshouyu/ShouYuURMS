@@ -1,5 +1,6 @@
 package com.qlshouyu.urms.common.web;
 
+import com.qlshouyu.urms.common.base.entity.Jsonable;
 import com.qlshouyu.urms.common.web.exception.RESPONSE_STATUS;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,30 +10,36 @@ import org.slf4j.LoggerFactory;
  * @Description 　接口结果
  * @date 19-5-28下午12:48
  */
-public class ResponseResult<T> {
+public class ResponseResult<T> extends Jsonable {
     private static Logger LOGGER= LoggerFactory.getLogger(ResponseResult.class);
     private T data;
 
     private RESPONSE_STATUS status;
 
-    private int code;
+    private Integer code;
 
-    private String errorMsg;
+    private String message;
 
-    public ResponseResult(T data,RESPONSE_STATUS status,String error) {
+    public ResponseResult(T data,RESPONSE_STATUS status,String message) {
         this.data=data;
         this.status=status;
-        this.errorMsg=error;
         this.code=status.getValue();
+        this.message=message;
     }
 
     public ResponseResult(T data) {
         this(data,RESPONSE_STATUS.SUCCESS,"");
+        LOGGER.debug("response result:{}",this);
+    }
+
+    public ResponseResult(Integer code,String message) {
+        this((T) RESPONSE_STATUS.ERROR.getName(),RESPONSE_STATUS.ERROR,message);
+        LOGGER.debug("response result:{}",this);
     }
 
     public ResponseResult(Throwable throwable) {
         this((T) RESPONSE_STATUS.ERROR.getName(),RESPONSE_STATUS.ERROR,throwable.getMessage());
-        LOGGER.warn("接口出错",throwable);
+        LOGGER.debug("response result:{}",this);
     }
 
     public T getData() {
@@ -43,22 +50,6 @@ public class ResponseResult<T> {
         this.data = data;
     }
 
-    public RESPONSE_STATUS getStatus() {
-        return status;
-    }
-
-    public void setStatus(RESPONSE_STATUS status) {
-        this.status = status;
-    }
-
-    public String getErrorMsg() {
-        return errorMsg;
-    }
-
-    public void setErrorMsg(String errorMsg) {
-        this.errorMsg = errorMsg;
-    }
-
     public int getCode() {
         return code;
     }
@@ -66,6 +57,15 @@ public class ResponseResult<T> {
     public void setCode(int code) {
         this.code = code;
     }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
 }
 
 

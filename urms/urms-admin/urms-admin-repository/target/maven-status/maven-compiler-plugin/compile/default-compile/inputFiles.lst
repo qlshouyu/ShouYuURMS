@@ -1,3 +1,3 @@
-/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/mysql/DictionaryMapper.java
-/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/DictionaryRepository.java
-/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/test.java
+/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/mapper/UserMapper.java
+/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/mapper/DictionaryMapper.java
+/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-repository/src/main/java/com/qlshouyu/urms/repository/mapper/AccountMapper.java

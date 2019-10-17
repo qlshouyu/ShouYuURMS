@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.PropertySource;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@SpringBootApplication(scanBasePackages = {"com.qlshouyu.urms"})
-@EnableEurekaClient
+//@SpringBootApplication(scanBasePackages = {"com.qlshouyu.urms"})
+//@EnableEurekaClient
 public class UrmsAdminApiApplication {
 
     public static void main(String[] args) {

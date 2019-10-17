@@ -24,7 +24,7 @@ public abstract class BaseService<P extends PoEntity> {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(BaseService.class);
 
-    protected Mapper mapper;
+    protected Mapper<P> mapper;
 
     /**
      * 构造函数

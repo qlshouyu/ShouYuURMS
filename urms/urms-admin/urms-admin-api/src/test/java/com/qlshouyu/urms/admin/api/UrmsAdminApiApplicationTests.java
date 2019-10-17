@@ -1,6 +1,5 @@
 package com.qlshouyu.urms.admin.api;
-
-import com.qlshouyu.urms.common.ResponseResult;
+import com.qlshouyu.urms.common.web.ResponseResult;
 import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.model.vo.DictionaryVo;
 import com.qlshouyu.urms.service.DictionaryService;
@@ -26,7 +25,7 @@ public class UrmsAdminApiApplicationTests {
         DictionaryVo dictionary=new DictionaryVo();
         dictionary.setName("测试");
         dictionary.setValue("test");
-        ResponseResult<Dictionary> dist = service.edit(dictionary);
+        Dictionary dist = service.edit(dictionary);
         Assert.assertNotNull(dist);
     }
 

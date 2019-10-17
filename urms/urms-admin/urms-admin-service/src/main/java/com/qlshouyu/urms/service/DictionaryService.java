@@ -1,7 +1,5 @@
 package com.qlshouyu.urms.service;
 import com.qlshouyu.urms.common.db.BaseService;
-import com.qlshouyu.urms.common.db.Mapper;
-import com.qlshouyu.urms.common.web.ResponseResult;
 import com.qlshouyu.urms.model.po.Dictionary;
 import com.qlshouyu.urms.model.vo.DictionarySearchVo;
 import com.qlshouyu.urms.model.vo.DictionaryVo;
@@ -34,7 +32,7 @@ public class DictionaryService extends BaseService<Dictionary> {
      * @param search 搜索条件{@code DictionarySearchVo}
      * @return 字典{@code Dictionary}列表
      */
-    public ResponseResult<List<Dictionary>> list(DictionarySearchVo search) {
+    public List<Dictionary> list(DictionarySearchVo search) {
         Example example=new Example(Dictionary.class);
         Example.Criteria criteria= example.createCriteria();
         if(!StringUtils.isEmpty(search.getName())){
@@ -47,7 +45,7 @@ public class DictionaryService extends BaseService<Dictionary> {
             criteria.andEqualTo("parentId",search.getParentId());
         }
         List<Dictionary> list=this.listByExemple(example);
-        return new ResponseResult<>(list);
+        return list;
     }
 
     /**
@@ -55,10 +53,10 @@ public class DictionaryService extends BaseService<Dictionary> {
      * @param model 字典详情界面对象{@code DictionaryVo}
      * @return 字典对象 {@code Dictionary}
      */
-    public ResponseResult<Dictionary> edit(DictionaryVo model) {
+    public Dictionary edit(DictionaryVo model) {
         Dictionary dic= model.transTo(Dictionary.class);
         this.editSelective(dic);
-        return new ResponseResult<>(dic);
+        return dic;
     }
 
 }

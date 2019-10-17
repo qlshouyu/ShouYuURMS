@@ -1,4 +1,7 @@
 /Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionaryVo.java
+/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/po/User.java
 /Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/DictionarySearchVo.java
 /Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/vo/LoginUserVo.java
 /Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/po/Dictionary.java
+/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/po/Menu.java
+/Volumes/workspaces/github/ShouYuURMS/urms/urms-admin/urms-admin-model/src/main/java/com/qlshouyu/urms/model/po/Account.java
