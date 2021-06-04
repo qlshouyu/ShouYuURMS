@@ -29,7 +29,7 @@
         <junit.version>4.12</junit.version>
         <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
-        <hibernate-validator.version>6.0.16.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.20.Final</hibernate-validator.version>
         <fastjson.version>1.2.58</fastjson.version>
     </properties>
 
